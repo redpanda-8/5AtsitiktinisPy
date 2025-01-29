@@ -51,7 +51,7 @@ def zaidziam():
             print("Kompiuteris laimi")
 
         arDarZaisti = input("Ar nori zaisti dar? (taip/ne): ").lower() # ar zmogus dar nori zaisti?
-        if arDarZaisti != "yes": # jeigu nera = taip = nezaidziam
+        if arDarZaisti != "taip": # jeigu nera = taip = nezaidziam
             print("Aciu kad zaidei! Bai bai!")
             break # reikia uzdaryti cikla, kad neklausinetu
 

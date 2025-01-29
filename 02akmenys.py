@@ -54,7 +54,7 @@ def zaidziam():
                 break
         # AR DAR NORI ZAISTI
         arDarZaisti = input("\nAr dar nori zaisti? (taip/ne): ").lower()
-        if arDarZaisti != "yes": # jeigu nebenori zaisti
+        if arDarZaisti != "taip": # jeigu nebenori zaisti
             print("Aciu, kad zaidei. Bai bai")
             break
 
